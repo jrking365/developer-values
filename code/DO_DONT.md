@@ -32,3 +32,7 @@ Please refer to [Code Readability Tricks](./CODE_READABILITY_TRICKS.md) for exam
 ## Do NOT use JSDoc in your code
 
 This information is redundant with Typescript definitions and are too verbose for most cases since your code should already be self explanatory.
+
+## Do NOT commit secrets, keys or passwords to the repository.
+
+If you believe that any has been compromised, get LOUD, notify the team.
