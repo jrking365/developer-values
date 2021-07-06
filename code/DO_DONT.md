@@ -25,6 +25,7 @@ Repositories and Containers should be crap-free
 ## Do not write functions which's body is too long
 
 Ideally, a function body should not exceed 15 lines, for readability and 600 characters, for optimization (V8 preferences)
+Please refer to [Code Readability Tricks](./CODE_READABILITY_TRICKS.md) for examples.
 
 ## Do NOT leave dead code in the project
 
