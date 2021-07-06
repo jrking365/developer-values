@@ -6,28 +6,35 @@
   Do's and Don'ts
 </h1>
 
-## DO Comment your code
+## DO comment your code
 
 Single line comment to add context to a business logic operation or to explain a complex function. Code blocks for larger paragraphs.
 
-## Do follow the guidelines
+## DO follow the guidelines
 
-## Do setup your gitignore and dockerignore files
+## DO setup your gitignore and dockerignore files
 
-Repositories and Containers should be crap-free
+Repositories and Containers should be crap-free.
 
-## Do include screen captures in your pull requests
+## DO include screen captures in your pull requests
 
-(Front-end) This is to ensure that the code works on all devices
+(Front-end) This is to ensure that the code works on all devices.
 
 ## Do NOT use improper or unclear name for services
 
-## Do not write functions which's body is too long
+## Do NOT write functions which's body is too long
 
 Ideally, a function body should not exceed 15 lines, for readability and 600 characters, for optimization (V8 preferences)
+Please refer to [Code Readability Tricks](./CODE_READABILITY_TRICKS.md) for examples.
 
 ## Do NOT leave dead code in the project
+
+Less code to read means easier maintainability.
 
 ## Do NOT use JSDoc in your code
 
 This information is redundant with Typescript definitions and are too verbose for most cases since your code should already be self explanatory.
+
+## Do NOT commit secrets, keys or passwords to the repository.
+
+If you believe that any has been compromised, get LOUD, notify the team.

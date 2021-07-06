@@ -68,3 +68,20 @@ const someFunction = (condition, name, value, permissions) => {
     return 'SUCCESS';
 };
 ```
+
+## Keep functions/methods intentions simple
+
+While some functions goals touch a few different areas, trying to keep it simple and objective,
+helps understand and navigate through the sequence flow.
+
+Bad
+```javascript
+  /* Need example */
+}
+```
+
+Good
+```javascript
+  /* Need example */
+}
+```
