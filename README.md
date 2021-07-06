@@ -42,6 +42,7 @@ We felt that sharing our `developer-values` to the world could inspire teams eve
   - [Dos and don'ts](./code/DO_DONT.md)
   - [Object properties ordering](./code/OBJECT_PROPERTIES_ORDERING.md)
   - [Code Readability Tricks](./code/CODE_READABILITY_TRICKS.md)
+  - [Tests](./code/TESTS.md)
 
 - **Checks** :mag_right:
 
