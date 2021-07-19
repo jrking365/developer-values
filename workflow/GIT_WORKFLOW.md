@@ -14,9 +14,7 @@ This combination of strategies increases the number of integration to the main b
 
 The main point is to avoid long-lived branches reducing the number of integration conflicts and introduce small changes in the codebase.
 
-
-~~At Pillar, we've adopted a variation of the classic [git-workflow](https://buddy.works/blog/5-types-of-git-workflows#gitflow) approach.~~
-<img src="./assets/gitflow.png">
+<img src="./assets/ci.png" />
 
 ## Development
 
