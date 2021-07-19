@@ -19,7 +19,7 @@ The main point is to avoid long-lived branches reducing the number of integratio
 
 ## Development
 
-A Developer when starting to write a new feature or a bug fix needs to branch out from the main branch (conveniently named main) and commit to
+A developer when starting to write a new feature or a bug fix needs to branch out from the main branch (conveniently named main) and commit to
 this branched version (See [naming conventions](https://github.com/getPillar/developer-values/blob/master/code/NAMING_STANDARDS.md#rules) for help on how to name a branch).
 
 During the development process, it is the developer's responsibility to request as often as possible pull requests back to the main branch, integrating the changes when it is
