@@ -53,9 +53,13 @@ Please review the scenarios described below covering common situations and the s
 
 ### Scenario 2 - Reese writing short feature B
 
+<img src="./assets/feature-b-steps.png" />
+
 placeholder -- describe short development of feature B.
 
 ### Scenario 3 - Alex bug fixing C
+
+<img src="./assets/bugfix-c-steps.png" />
 
 placeholder -- describe bug fixing process of C.
 
