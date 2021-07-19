@@ -6,10 +6,16 @@
   Git workflow
 </h1>
 
-## At a glace
+## At a glance
 
-At Pillar, we've adopted a variation of the classic [git-workflow](https://buddy.works/blog/5-types-of-git-workflows#gitflow) approach.
+At Pillar, we've adopted the Continous Integration practice but using a safe approach of branching and merging back to main instead of committing directly.
 
+This combination of strategies increases the number of integration to the main branch as often as possible but still supports the practice of peer-review and security checks before accepting the changes in the main branch.
+
+The main point is to avoid long-lived branches reducing the number of integration conflicts and introduce small changes in the codebase.
+
+
+~~At Pillar, we've adopted a variation of the classic [git-workflow](https://buddy.works/blog/5-types-of-git-workflows#gitflow) approach.~~
 <img src="./assets/gitflow.png">
 
 ## Development
@@ -36,4 +42,9 @@ With `master` often behind on the active `develop` branch, it is sometimes requi
 
 For tracking and merge-back reasons, a long-lived branch, aptly named `hotfix`, is preferred over multiple hotfix-prefixed branches 
 
-It is assumed that in order to merge the next `develop` version into master, the team will have to sync back any hotfixes applied in `master` first. So to avoid any dips in productivity, it is strongly recommended that those changes be synced in `develop` as soon as possible.
+It is assumed that in order to merge the next `develop` version into master, the team will have to sync back any hotfixes applied in `master` first. So to avoid any dips in productivity, it is strongly recommended that those changes be synced in `develop` as soon as possible.~~
+
+## Supporting Documentation
+
+- [Martin Fowler's Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+- [Dave Farley's Continous Integration](https://www.youtube.com/watch?v=jAtI5T4O1j0)
