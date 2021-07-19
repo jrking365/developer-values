@@ -51,19 +51,25 @@ Please review the scenarios described below covering common situations and the s
 12. optimize overall logic and increase test coverage.
 13. open the final pull request from feat/feature-a to main closing the life-cycle of the feature-a development.
 
+### Scenario 2 - Reese writing feature B
+
+placeholder -- describe short development of feature B.
+
+### Scenario 3 - Alex bug fixing C
+
+placeholder -- describe bug fixing process of C.
+
 ## Releases
 
-When the team deems fit, to align with engineering or product roadmaps, a Pull Request from `develop` to `master` is created so that all the features introduced are reviewed. The `master` branch represents the production environment.
-
-A merge on the `master` branch should trigger a pipeline that runs the tests again and then deploys into production.
+placeholder -- describe CI/CD process of github action building containers and making it available to deploy at staging environment.
 
 ## Hotfixes
 
-With `master` often behind on the active `develop` branch, it is sometimes required to checkout from master to perform quick surgery.
+Using the CI process, a hotfix is no longer necessary since the latest container built from main branch is considered stable and
+viable to be tested/deployed.
 
-For tracking and merge-back reasons, a long-lived branch, aptly named `hotfix`, is preferred over multiple hotfix-prefixed branches 
-
-It is assumed that in order to merge the next `develop` version into master, the team will have to sync back any hotfixes applied in `master` first. So to avoid any dips in productivity, it is strongly recommended that those changes be synced in `develop` as soon as possible.~~
+In case of fix of no longer up-to-date release is required, please consider approaching the problem as a versioned microservice release,
+creating a new service sourced from said release and maintain it as such. (placeholder - add a link to microservice architecture).
 
 ## Supporting Documentation
 
