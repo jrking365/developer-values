@@ -15,6 +15,15 @@ before accepting the changes in the main branch.
 
 The main point is to avoid long-lived branches reducing the number of integration conflicts and introduce small changes in the codebase.
 
+Martin Fowler's introduction on CI
+
+> Continuous Integration is a software development practice where members of a
+> team integrate their work frequently, usually each person integrates at least daily - leading
+> to multiple integrations per day. Each integration is verified by an automated build (including test)
+> to detect integration errors as quickly as possible.
+> Many teams find that this approach leads to significantly reduced integration problems and allows a
+> team to develop cohesive software more rapidly. 
+
 <img src="./assets/ci.png" />
 
 ## Development
