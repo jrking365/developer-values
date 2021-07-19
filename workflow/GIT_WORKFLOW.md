@@ -10,7 +10,8 @@
 
 At Pillar, we've adopted the Continous Integration practice but using a safe approach of branching and merging back to main instead of committing directly.
 
-This combination of strategies increases the number of integration to the main branch as often as possible but still supports the practice of peer-review and security checks before accepting the changes in the main branch.
+This combination of strategies increases the number of integration to the main branch as often as possible but still supports the practice of peer-review and security checks
+before accepting the changes in the main branch.
 
 The main point is to avoid long-lived branches reducing the number of integration conflicts and introduce small changes in the codebase.
 
@@ -18,15 +19,19 @@ The main point is to avoid long-lived branches reducing the number of integratio
 
 ## Development
 
-Developers working on a story must checkout from the latest commit on the default working branch (`develop`) into a feature branch.
-See [naming conventions](https://github.com/getPillar/developer-values/blob/master/code/NAMING_STANDARDS.md#rules) for branch names. 
+A Developer when starting to write a new feature or a bug fix needs to branch out from the main branch (conveniently named main) and commit to
+this branched version (See [naming conventions](https://github.com/getPillar/developer-values/blob/master/code/NAMING_STANDARDS.md#rules) for help on how to name a branch).
 
+During the development process, it is the developer's responsibility to request as often as possible pull requests back to the main branch, integrating the changes when it is
+deemed stable and do not introduce regressions in the main code-base.
 
-Once the feature is ready to be presented in a pull request it should be based on `develop`. See [pull requests](https://github.com/getPillar/developer-values/blob/master/workflow/CODE_REVIEW.md#opening-pull-requests) for standards.
+Also during the development process, the developer is responsible to rebase his/her feature branch against the main branch to not lose track of the most recent changes and always
+evaluate his/her changes against the most updated version.
 
-Features not ready for production may still be merged, but should be disabled. This is taken from the trunk-based approach, with the goal of stimulating development pace.
+When the feature is considered complete and fully integrated, it's also the developer's responsibility to certify that all branches created are cleaned/removed from the
+main repository, as to keep it tidy and without stale code.
 
-The `develop` branch must be stable at all times, even if it includes disabled features. It represents, in essence or in reality, the staging environment for the company. Tests must be passing before new code can be added to it.
+Please review the scenarios described below covering common situations and the steps in the process.
 
 ## Releases
 
