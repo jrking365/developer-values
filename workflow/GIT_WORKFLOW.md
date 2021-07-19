@@ -33,7 +33,7 @@ main repository, as to keep it tidy and without stale code.
 
 Please review the scenarios described below covering common situations and the steps in the process.
 
-### Scenario 1 - Taylor writing feature A
+### Scenario 1 - Taylor writing complex feature A
 
 <img src="./assets/feature-a-steps.png" />
 
@@ -51,7 +51,7 @@ Please review the scenarios described below covering common situations and the s
 12. optimize overall logic and increase test coverage.
 13. open the final pull request from feat/feature-a to main closing the life-cycle of the feature-a development.
 
-### Scenario 2 - Reese writing feature B
+### Scenario 2 - Reese writing short feature B
 
 placeholder -- describe short development of feature B.
 
