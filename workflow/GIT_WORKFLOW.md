@@ -33,6 +33,22 @@ main repository, as to keep it tidy and without stale code.
 
 Please review the scenarios described below covering common situations and the steps in the process.
 
+### Scenario 1 - Taylor writing feature A
+
+1. checkout branch feat/feature-a from main.
+2. commit a new module, some business logic and unit tests for it.
+3. commit code refactor for the new module and optimizations.
+4. open a new pull request from feat/feature-a to main.
+5. commit new unit tests supporting new business logic.
+6. rebase feat/feature-a with the latest from main (fetching new code introduced by feat/feature-b integration).
+7. commit more functionality and unit tests.
+8. open a new pull request from feat/feature-a to main.
+9. commit more changes and corrections into feature-a logic.
+10. rebase feat/feature-a with the latest from main (fetching more code introduced by feat/feature-b integration).
+11. integrate the newly developed modules in the main API logic, making the changes now available to be consumed by others.
+12. optimize overall logic and increase test coverage.
+13. open the final pull request from feat/feature-a to main closing the life-cycle of the feature-a development.
+
 ## Releases
 
 When the team deems fit, to align with engineering or product roadmaps, a Pull Request from `develop` to `master` is created so that all the features introduced are reviewed. The `master` branch represents the production environment.
