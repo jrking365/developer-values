@@ -35,6 +35,8 @@ Please review the scenarios described below covering common situations and the s
 
 ### Scenario 1 - Taylor writing feature A
 
+<img src="./assets/feature-a-steps.png" />
+
 1. checkout branch feat/feature-a from main.
 2. commit a new module, some business logic and unit tests for it.
 3. commit code refactor for the new module and optimizations.
