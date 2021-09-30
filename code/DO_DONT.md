@@ -38,3 +38,26 @@ This information is redundant with Typescript definitions and are too verbose fo
 ## Do NOT commit secrets, keys or passwords to the repository.
 
 If you believe that any has been compromised, get LOUD, notify the team.
+
+## Do NOT use double-left assignment
+
+Typescript and Javascript provide often used syntax sugar to deconstruct objects, using assignment in the same step increase the complexity and introduce anti-pattern of having double left-hand in the operation;
+
+```
+// DONT
+const { wheel = 2 } = car; 
+
+// DO
+const { wheel } = car;
+
+// DO
+// if you need a default value in case of null or undefined.
+const wheel = car.wheel || 2;
+
+// DO
+// if you want to be declarative and reduce cognitive load.
+const { wheel } = car;
+if (wheel == undefined) || (wheel == null) {
+  wheel = 2;
+}
+```
