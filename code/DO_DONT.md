@@ -57,7 +57,7 @@ const wheel = car.wheel || 2;
 // DO
 // if you want to be declarative and reduce cognitive load.
 const { wheel } = car;
-if (wheel == undefined) || (wheel == null) {
+if (wheel == undefined || wheel == null) {
   wheel = 2;
 }
 ```
