@@ -54,6 +54,7 @@ We felt that sharing our `developer-values` to the world could inspire teams eve
   - [Guilds and squads](./literature/GUILDS_AND_SQUADS.md)
 
 - **Ceremonies**
+  - [Onboarding](./ceremonies/ONBOARDING.md)
   - [Paired code review](./ceremonies/PAIRED_CODE_REVIEW.md)
   - [Pair programming](./ceremonies/PAIR_PROGRAMMING.md)
   - [Tech talks](./ceremonies/TECH_TALKS.md)
