@@ -25,7 +25,7 @@ The checklist can also be used for application owners to provision access in a s
  - Ask an existing developer for their copies
 
 4. Install the following tools
- - npm / yarn
+ - yarn (this is our package manager of choice)
  - docker, docker-compose 
 
 ### VSCode-specific
